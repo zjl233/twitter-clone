@@ -11,12 +11,12 @@
 </template>
 
 <script>
-import personInfo from '@/API/Person/info'
+import personInfo from '@/API/Person'
 import PeopleBox from '@/components/PersonList/PeopleBox'
 import LoadingAnimationComponent from '@/components/Animate/Loading'
 
 export default {
-  name: 'PersonFollowingList',
+  name: 'PersonFollowerList',
   components: {
     PeopleBox,
     LoadingAnimationComponent

@@ -68,7 +68,7 @@
 <script>
 import FollowBtn from '@/components/Btns/Follow'
 import ErrorMessageBar from '@/components/Bar/ErrorMessageBar'
-import personInfo from '@/API/Person/info'
+import personInfo from '@/API/Person'
 
 export default {
   name: 'PersonalHome',

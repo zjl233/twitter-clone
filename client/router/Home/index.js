@@ -3,9 +3,9 @@ import PersonalHome from '@/View/Home/Personal'
 import UserHome from '@/View/Home/User'
 
 import TopNavBar from '@/components/Bar/TopNavBar'
-import PersonalPost from '@/components/Home/Personal/'
+import PersonalPost from '@/components/Home/Personal/PersonalDefault'
+import PersonalFollower from '@/components/Home/Personal/follower'
 import PersonalFollowing from '@/components/Home/Personal/Following'
-import PersonalFollower from '@/components/Home/Personal/Follower'
 import DetailPostInfoComponent from '@/components/Post/DetailPostInfo'
 
 import store from '@/store'

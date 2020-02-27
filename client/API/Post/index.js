@@ -3,7 +3,7 @@ import axios from 'axios'
 import store from '@/store'
 
 async function SendPost (request) {
-  let res;
+  let res
 
   try {
     res = await axios({
