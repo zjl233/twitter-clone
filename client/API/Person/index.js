@@ -8,12 +8,12 @@ async function GetPersonBasicInfo (personId) {
 
   try {
     res = await axios({
-        methods: 'get',
-        url: `/API/person/${personId}`,
-        headers: {
-          'x-auth': token
-        }
-      })
+      methods: 'get',
+      url: `/API/person/${personId}`,
+      headers: {
+        'x-auth': token
+      }
+    })
   } catch (e) {
     return {
       result: false,
@@ -30,12 +30,12 @@ async function GetPersonFollowingInfo (personId) {
 
   try {
     res = await axios({
-        methods: 'get',
-        url: `/API/person/${personId}/following`,
-        headers: {
-          'x-auth': token
-        }
-      })
+      methods: 'get',
+      url: `/API/person/${personId}/following`,
+      headers: {
+        'x-auth': token
+      }
+    })
   } catch (e) {
     return {
       result: false,
@@ -52,12 +52,12 @@ async function GetPersonFollowerInfo (personId) {
 
   try {
     res = await axios({
-        methods: 'get',
-        url: `/API/person/${personId}/follower`,
-        headers: {
-          'x-auth': token
-        }
-      })
+      methods: 'get',
+      url: `/API/person/${personId}/follower`,
+      headers: {
+        'x-auth': token
+      }
+    })
   } catch (e) {
     return {
       result: false,

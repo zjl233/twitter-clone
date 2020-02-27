@@ -18,7 +18,7 @@
 import PostsBoxComponent from '@/components/Post/PostsBox'
 import PostCreaterComponent from '@/components/Post/PostCreater'
 import LoadingAnimationComponent from '@/components/Animate/Loading'
-import personAPI from '@/API/Person/info'
+import personAPI from '@/API/Person'
 
 export default {
   name: 'PersonalDefault',
